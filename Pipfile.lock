@@ -1,18 +1,18 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8cd176a9583e02584d72ef4dd62a7f880c12a06fe1686856a254145feb8c953a"
+            "sha256": "ea0e2227a63c4135a561f370fd69ee9ee3d0a9374b560096ecce4475b7f37d96"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
-            "implementation_version": "3.6.3",
+            "implementation_version": "3.6.4",
             "os_name": "posix",
             "platform_machine": "x86_64",
             "platform_python_implementation": "CPython",
-            "platform_release": "4.14.5-300.fc27.x86_64",
+            "platform_release": "4.15.3-300.fc27.x86_64",
             "platform_system": "Linux",
-            "platform_version": "#1 SMP Mon Dec 11 16:00:36 UTC 2017",
-            "python_full_version": "3.6.3",
+            "platform_version": "#1 SMP Tue Feb 13 17:02:01 UTC 2018",
+            "python_full_version": "3.6.4",
             "python_version": "3.6",
             "sys_platform": "linux"
         },
@@ -29,6 +29,26 @@
         ]
     },
     "default": {
+        "begins": {
+            "hashes": [
+                "sha256:1aebcdc04a36d64d6462f38fc0ece62fa1b96262db5a7a680eec782b75ceee66",
+                "sha256:98864dc7593ce438074ed30e4c030dcb37e795376726d9150d557ed9d868ef55"
+            ],
+            "version": "==0.9"
+        },
+        "e1839a8": {
+            "editable": true,
+            "path": "."
+        },
+        "funcsigs": {
+            "hashes": [
+                "sha256:330cc27ccbf7f1e992e69fef78261dc7c6569012cf397db8d3de0234e6c937ca",
+                "sha256:a7bb0f2cf3a3fd1ab2732cb49eba4252c2af4240442415b4abce3b87022a8f50"
+            ],
+            "version": "==1.0.2"
+        }
+    },
+    "develop": {
         "attrs": {
             "hashes": [
                 "sha256:a17a9573a6f475c99b551c0e0a812707ddda1ec9653bed04c13841404ed6f450",
@@ -36,12 +56,22 @@
             ],
             "version": "==17.4.0"
         },
-        "begins": {
+        "enum34": {
             "hashes": [
-                "sha256:1aebcdc04a36d64d6462f38fc0ece62fa1b96262db5a7a680eec782b75ceee66",
-                "sha256:98864dc7593ce438074ed30e4c030dcb37e795376726d9150d557ed9d868ef55"
+                "sha256:6bd0f6ad48ec2aa117d3d141940d484deccda84d4fcd884f5c3d93c23ecd8c79",
+                "sha256:644837f692e5f550741432dd3f223bbb9852018674981b1664e5dc339387588a",
+                "sha256:8ad8c4783bf61ded74527bffb48ed9b54166685e4230386a9ed9b1279e2df5b1",
+                "sha256:2d81cbbe0e73112bdfe6ef8576f2238f2ba27dd0d55752a776c41d38b7da2850"
             ],
-            "version": "==0.9"
+            "markers": "python_version < '3.4'",
+            "version": "==1.1.6"
+        },
+        "funcsigs": {
+            "hashes": [
+                "sha256:330cc27ccbf7f1e992e69fef78261dc7c6569012cf397db8d3de0234e6c937ca",
+                "sha256:a7bb0f2cf3a3fd1ab2732cb49eba4252c2af4240442415b4abce3b87022a8f50"
+            ],
+            "version": "==1.0.2"
         },
         "glob2": {
             "hashes": [
@@ -89,10 +119,10 @@
         },
         "pytest": {
             "hashes": [
-                "sha256:95fa025cd6deb5d937e04e368a00552332b58cae23f63b76c8c540ff1733ab6d",
-                "sha256:6074ea3b9c999bd6d0df5fa9d12dd95ccd23550df2a582f5f5b848331d2e82ca"
+                "sha256:8970e25181e15ab14ae895599a0a0e0ade7d1f1c4c8ca1072ce16f25526a184d",
+                "sha256:9ddcb879c8cc859d2540204b5399011f842e5e8823674bf429f70ada281b3cc6"
             ],
-            "version": "==3.4.0"
+            "version": "==3.4.1"
         },
         "pytest-bdd": {
             "hashes": [
@@ -107,6 +137,5 @@
             ],
             "version": "==1.11.0"
         }
-    },
-    "develop": {}
+    }
 }
